@@ -6,11 +6,11 @@ on:
 
 env:
   AWS_REGION: us-east-1
-  ECS_CLUSTER: crm-cluster
-  ECS_SERVICE: team-service
-  ECS_TASK_DEFINITION: team-task
-  CONTAINER_NAME: team-service
-  DOCKER_IMAGE: aledve/team-service
+  ECS_CLUSTER: smart-parking-cluster
+  ECS_SERVICE: vehicle-service
+  ECS_TASK_DEFINITION: vehicle-task
+  CONTAINER_NAME: vehicle-service
+  DOCKER_IMAGE: aledve/vehicle-service
   DOCKER_TAG: latest
 
 jobs:
