@@ -7,6 +7,6 @@ RUN gradle bootJar
 
 # Stage 2: Run
 FROM eclipse-temurin:21-jre
-COPY --from=build /app/*.jar /app/team-service.jar
+COPY --from=build /app/*.jar /app/vehicle-service.jar
 WORKDIR /app
-CMD ["java", "-jar", "team-service.jar"]
+CMD ["java", "-jar", "vehicle-service.jar"]
